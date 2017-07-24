@@ -11,3 +11,9 @@ Establish connection to the sql server database and execute sql query statement.
 6. ......   
 7. Profit!
 
+### Setup file
+
+* create a connection string in azure function app. put your credential information as well as database server endpoint
+```javascript
+var str = ConfigurationManager.ConnectionStrings["sqldb_Gorgias" ].ConnectionString;
+```
