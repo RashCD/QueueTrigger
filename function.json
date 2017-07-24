@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "fb-que",
+      "connection": "gorgiasfb9a33_STORAGE"
+    }
+  ],
+  "disabled": false
+}
